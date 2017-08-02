@@ -8,5 +8,3 @@ cd ../..
 docker build -t rapido-backend:release -f Backend.Dockerfile .
 
 docker build -t rapido-web:release -f  Web.Dockerfile .
-
-~                                                                                                                                                         ~                                                                    
