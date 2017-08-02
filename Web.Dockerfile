@@ -8,4 +8,3 @@ RUN sed -i '1s/^/daemon off;\n/' /etc/nginx/nginx.conf
 
 CMD service nginx start
 #CMD tail -f /dev/null
-~                              
