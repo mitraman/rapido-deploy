@@ -1,1 +1,1 @@
-docker run --network=isolated_nw -d -v /var/lib/postgresql/data --name db postgres
+docker run --network=isolated_nw -d -v /var/db:/var/lib/postgresql/data --name db postgres
