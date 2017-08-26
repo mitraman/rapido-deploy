@@ -7,4 +7,5 @@ COPY conf/default.conf /etc/nginx/conf.d/default.conf
 RUN sed -i '1s/^/daemon off;\n/' /etc/nginx/nginx.conf
 
 CMD service nginx start
+#CMD service nginx-debug start
 #CMD tail -f /dev/null
